@@ -1,7 +1,11 @@
 {
   "compilerOptions": {
-    "target": "ES2017",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "rootDir": "./", // Root directory of the project
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -12,6 +16,10 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
+    "typeRoots": [
+      "./node_modules/@types",
+      "./types"
+    ], // Specifies the directories for type definitions
     "incremental": true,
     "plugins": [
       {
@@ -19,9 +27,28 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"]
-    }
+      "@/*": [
+        "./*"
+      ]
+    },
+    "types": [
+      "node", // Includes Node.js types
+      "react", // Includes React types
+      "react-dom" // Includes React DOM types
+    ],
+    "target": "ES2017"
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
-  "exclude": ["node_modules"]
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "styles/**/*.css",
+    "styles/**/*.scss",
+    "dist/types/**/*.ts",
+    "postcss.config.mjs"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
