@@ -2,8 +2,6 @@
 import { withSentryConfig } from "@sentry/nextjs";
 
 const nextConfig = {
-    outputPath: 'export',
-    distDir: "dist", // Set the output directory to 'dist'
     images: {
         remotePatterns: [
             {
@@ -28,8 +26,8 @@ export default withSentryConfig(nextConfig, {
 
 // Suppresses source map uploading logs during build
     silent: true,
-    org: "javascript-mastery",
-    project: "javascript-nextjs",
+    org: "sites-for-sore-eyes",
+    project: "portfolio-nextjs",
 });
 
 module.exports = withSentryConfig(nextConfig);
