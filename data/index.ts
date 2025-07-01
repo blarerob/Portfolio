@@ -15,7 +15,7 @@ export const gridItems = [
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: commsLogo,
+    img: "/commsLogo.png",
     spareImg: "",
   },
   {
@@ -55,7 +55,7 @@ export const gridItems = [
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "events.png",
+    img: "/events.png",
     spareImg: "",
   },
   {
@@ -90,7 +90,7 @@ export const projects = [
     des: "With Payment Processing, File Upload ability, and Event Management type of features using the latest tech-stack. ",
     img: "/functions.mp4",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    link: "/github.com/blarerob/the-function",
   },
 ];
 
