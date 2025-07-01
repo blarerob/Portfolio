@@ -1,2 +1,6 @@
 # Include video files inside "videos/" or any of its subdirectories.
 included_files = ["images/**", "videos/**", "sounds/**"]
+
+[dev]
+  # Path to your frontend build directory
+  publish = "dist"
