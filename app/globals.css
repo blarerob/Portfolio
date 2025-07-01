@@ -50,10 +50,6 @@
     --input: 240 3.7% 15.9%;
     --ring: 240 4.9% 83.9%;
   }
-
-  button {
-    @apply active:outline-none;
-  }
 }
 /* Spotlight Layer */
 
@@ -78,4 +74,13 @@
   .heading {
     @apply font-bold text-4xl md:text-5xl text-center;
   }
+}
+
+.sentry-feedback-button {
+  position: fixed !important;
+  bottom: 20px !important;
+  right: 20px !important;
+  z-index: 10000;
+  visibility: visible;
+  opacity: 1 !important;
 }

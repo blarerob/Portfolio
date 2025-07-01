@@ -31,7 +31,7 @@ yarn-error.log*
 .pnpm-debug.log*
 
 # env files (can opt-in for committing if needed)
-.env*
+.env*.local
 
 # vercel
 .vercel
@@ -69,3 +69,5 @@ pages-manifest.json
 server-reference-manifest.json
 webpack.js
 webpack-runtime.js
+# Sentry Config File
+.env.sentry-build-plugin

@@ -4,7 +4,6 @@ import events from '../public/events.png';
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -75,93 +74,30 @@ export const projects = [
   {
     id: 1,
     title: "Zenstays",
-    des: "A modern, responsive website for a short term rental company, featuring authentication, " +
-        "user login, MongoDB to store and manage property listings, and Netlify Deployment.",
-    img: "/p1.svg",
+    subTitle: "[ Next.js application for property rental management ]",
+    des: "Implements robust user authentication, scalable database integration, and a cutting-edge UI. Empowers " +
+        "admins with tools for seamless property listing management, ensuring data accuracy and real-time updates." +
+        " Optimized for handling complex property datasets, delivering secure access, and crafting personalized " +
+        "user journeys to elevate engagement and functionality.",
+    img: "/bg.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "zenstays.netlify.app",
   },
   {
     id: 2,
     title: "The Function",
-    des: "The Function is a professional community event application designed to streamline event management. " +
-        "It leverages MongoDB for efficient storage and retrieval of event details, while dynamically displaying event images to enhance user engagement.",
+    subTitle: "[ Full Stack app for ticketing and event management ]",
+    des: "With Payment Processing, File Upload ability, and Event Management type of features using the latest tech-stack. ",
     img: "/functions.mp4",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "/ui.yoom.com",
   },
 ];
 
-export const testimonials = [
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-];
-
-export const companies = [
-  {
-    id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
-  },
-  {
-    id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
-  },
-  {
-    id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
-  },
-  {
-    id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
-  },
-];
-
 export const workExperience = [
   {
     id: 1,
-    title: "Jr Software Engineer - Jack Henry",
+    title: "Jr Software Engineer Jack Henry",
     des: "Contributed to the development and maintenance of web-based applications using modern technologies. " +
         "Collaborated with cross-functional teams to enhance user experience and ensure code quality. Assisted in " +
         "debugging, testing, and deploying features to meet project requirements.",
@@ -170,31 +106,29 @@ export const workExperience = [
   },
   {
     id: 2,
-    title: "Software Engineer - Jack Henry",
+    title: "Software Engineer  Jack Henry",
     des: "Designed, developed, and maintained software applications to meet client and business requirements. " +
         "Collaborated with cross-functional teams to deliver scalable and efficient solutions. Ensured code quality through " +
         "testing, debugging, and adherence to best practices.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/api.png",
+    className: 'rotate-bug',
+    thumbnail: "/bug.png",
   },
   {
     id: 3,
-    title: "Software Engineer lll - Jack Henry",
-    des: "Transitioned from Software Engineer to Full Stack Developer, gaining expertise in both frontend and backend development. " +
-        "Designed and implemented scalable web applications, ensuring seamless user experiences and robust server-side functionality. " +
-        "Collaborated with cross-functional teams to deliver end-to-end solutions while maintaining high code quality and performance.",
+    title: "Software Engineer lll  Jack Henry",
+    des: "Advanced to Full Stack Developer, mastering frontend and backend development. Built scalable web apps " +
+        "with seamless user experiences and robust server-side functionality. Mentored developers, " +
+        "promoting growth and collaboration.",
     className: "md:col-span-2",
-    thumbnail: "/backend.png",
-
+    thumbnail: "/coaching.png",
   },
   {
     id: 4,
-    title: "Freelance Full Stack Developer - Zenstays",
-    des: "From scratch, through the full Development Cycle I Developed a responsive web and mobile application for a short-term rental property company. Implemented user " +
-        "authentication and login functionality to ensure secure access. Utilized MongoDB for efficient storage and " +
-        "management of property listings, enabling seamless data retrieval and scalability. Deployed the application on Netlify",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/mobile.png",
+    title: "Full Stack Engineer  Zenstays",
+    des: "Developed a responsive web application from concept to deployment with Netlify, implementing both " +
+        "frontend and backend systems. Collaborated with with the client to align the app with their vision and business goals.",
+    className: "md:col-span-2",
+    thumbnail: "/house-rental.png",
   },
 ];
 
@@ -202,13 +136,11 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "github.com/blarerob",
   },
   {
     id: 2,
-    img: "/twit.svg",
-  },
-  {
-    id: 3,
     img: "/link.svg",
+    link: "linkedin.com/in/ber",
   },
 ];
