@@ -1,0 +1,13 @@
+# Include video files inside "videos/" or any of its subdirectories.
+included_files = ["images/**", "videos/**", "sounds/**"]
+
+[[plugins]]
+package = "@netlify/plugin-nextjs"
+
+[dev]
+  # Port for the local development server
+  port = 8888
+  # Path to your functions directory
+  functions = "netlify/functions"
+  # Path to your frontend build directory
+  publish = "out"
