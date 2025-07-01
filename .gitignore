@@ -14,7 +14,6 @@
 /coverage
 
 # next.js
-/.next/
 /out/
 
 # production
@@ -45,7 +44,6 @@ dist/
 dist/cache
 dist/cache/*
 build/
-.next/
 out/
 .webpack/*
 
