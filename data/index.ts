@@ -1,6 +1,3 @@
-import commsLogo from '../public/commsLogo.png';
-import events from '../public/events.png';
-
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
