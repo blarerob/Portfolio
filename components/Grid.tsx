@@ -14,7 +14,7 @@ const Grid = () => {
             // remove icon prop
             // remove original classname condition
             className={item.className}
-            img={typeof item.img === "string" ? item.img : item.img?.src}
+            img={typeof item.img === "string" ? item.img : item.img}
             imgClassName={item.imgClassName}
             titleClassName={item.titleClassName}
             spareImg={item.spareImg}

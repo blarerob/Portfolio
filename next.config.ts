@@ -3,10 +3,6 @@ import { withSentryConfig } from "@sentry/nextjs";
 
 const nextConfig = {
     outputPath: 'export',
-    typescript: {
-        // Set to true to allow production builds even if there are type errors
-        ignoreBuildErrors: true,
-    },
     distDir: "dist", // Set the output directory to 'dist'
     images: {
         remotePatterns: [

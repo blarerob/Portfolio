@@ -1,5 +1,4 @@
 import * as Sentry from "@sentry/nextjs";
-import dotenv from "dotenv";
 
   Sentry.init({
     dsn: "https://0380ab2bfdb2b1729e786e9de6b288f7@o4509579981094912.ingest.us.sentry.io/4509580352749568",
