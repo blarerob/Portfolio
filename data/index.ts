@@ -89,6 +89,15 @@ export const projects = [
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "/github.com/blarerob/the-function",
   },
+  {
+    id: 2,
+    title: "Who Does Your Hair KY",
+    subTitle: "[ Modern Nextjs app for a clients Salon business ]",
+    des: "Freelance hire for a modern Next.js application for a client's salon business, featuring a sleek design and user-friendly interface. " ,
+    img: "/heroCover.jpg",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    link: "https://whodoesyourhairky.netlify.app/",
+  },
 ];
 
 export const workExperience = [
